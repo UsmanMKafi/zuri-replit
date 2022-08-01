@@ -1,0 +1,325 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.logo-wrapper {
+  font-size: 32px;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+label {
+  margin-left: 180px;
+}
+input {
+  width: 70%;
+  margin-left: 180px;
+  margin-right: auto;
+}
+
+input[type="text"],
+textarea {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 180px;
+  margin-right: auto;
+  outline: none;
+  resize: vertical;
+}
+
+input[type="password"] {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 180px;
+  margin-right: auto;
+  outline: none;
+  resize: vertical;
+}
+
+input[type="number"] {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 180px;
+  margin-right: auto;
+  outline: none;
+  resize: vertical;
+}
+
+input[type="email"] {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 180px;
+  margin-right: auto;
+  outline: none;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 180px;
+  margin-right: auto;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#gender {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 6px;
+  margin-left: 180px;
+  margin-right: auto;
+  cursor: pointer;
+  outline: none;
+  resize: vertical;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.main-text {
+  text-align: center;
+  color: teal;
+}
+
+.grid-template {
+  display: flex;
+}
+
+.grid-1 {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 130px;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.grid-3 {
+  display: flex;
+  width: 40%;
+  margin-left: 80px;
+  padding-top: 60px;
+  text-align: justify;
+  font-size: large;
+}
+
+.grid-template1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.grid-template1x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.grid-3A {
+  display: flex;
+}
+
+.main-text1 {
+  color: teal;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 38%;
+  margin-bottom: 150px;
+  width: 350px;
+  font-size: 18px;
+  border: 1px solid teal;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: teal;
+  color: #fff;
+  padding: 20px;
+  margin-left: 38%;
+  margin-bottom: 150px;
+  width: 350px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+button > a {
+  align-items: center;
+  color: teal;
+  width: 380px;
+  font-size: 24px;
+  /* font-weight: bolder; */
+}
+
+button > a:hover {
+  align-items: center;
+  color: #fff;
+  width: 380px;
+}
+
+.registerbtn {
+  background-color: teal;
+  color: white;
+  padding: 16px 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 180px;
+  margin-right: auto;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 0.7;
+}
+
+.login {
+  width: 420px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  margin-bottom: 35px;
+  padding: 80px;
+  background: #f2f2f2;
+  border-radius: 15px;
+}
+
+.label {
+  color: teal;
+  margin-left: -5px;
+}
+
+#Uname {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  margin-left: -5px;
+  outline: none;
+}
+#Pass {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  margin-left: -5px;
+  outline: none;
+}
+#log {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  background-color: teal;
+  color: #fff;
+  box-sizing: border-box;
+  margin-left: -5px;
+  font-weight: bold;
+}
+span {
+  color: teal;
+  font-size: 17px;
+}
+.forgot-pass {
+  color: teal;
+  font-weight: bold;
+}
+/* a{  
+float: right;  
+background-color: grey;  
+} */
+
+footer {
+  color: #fff;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: teal;
+  margin-bottom: -100px;
+}
